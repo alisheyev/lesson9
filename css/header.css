@@ -1,0 +1,136 @@
+header {
+  background-color: hsl(194.78, 83.13%, 16.27%);
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  padding-bottom: 20px;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+
+  background-color: hsl(194.78, 83.13%, 16.27%);
+
+}
+
+.saske li {
+  display: block;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav button {
+  padding: 15px 35px;
+  font-family: "inter-bold", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  background: #145e76;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+nav a {
+  margin: 0px 25px;
+  font-family: "inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a1b5bb;
+}
+
+.flex-container_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.noneright {
+  margin-right: 0px;
+}
+
+.noneleft {
+  margin-left: 0px;
+}
+
+.nonefull {
+  margin: 0px;
+}
+
+nav a:hover {
+  font-family: "inter-semibold", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: #a1b5bb;
+}
+
+nav button:hover {
+  background-color: #094556;
+  color: #f5f5f5;
+}
+
+/* ------------- */
+
+.button-header {
+  margin-top: 150px;
+  padding: 15px 30px;
+  font-family: "schoolbell-regular", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  background: #094556;
+  border-radius: 30px;
+}
+
+.left-header h1 {
+  margin: 40px 0px 30px;
+  font-family: "inter-bold", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.left-header p {
+  margin: 30px 0px 50px;
+  font-family: "inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  color: #849499;
+}
+
+.button-header_top {
+  padding: 15px 30px;
+  font-family: "inter-semibold", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #b6cdd5;
+  cursor: pointer;
+  background-color: hsl(194.78, 83.13%, 16.27%);
+}
+
+.button-header_top:hover {
+  background-color: #ffa63a;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 15px 30px;
+  margin: 0px 0px;
+}
+
+.flex-container_header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.right-header img {
+  width: 600px;
+  height: 730px;
+  margin-bottom: 250px;
+}
